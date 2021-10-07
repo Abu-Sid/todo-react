@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: rgb(13, 22, 22);
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+.todo__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
